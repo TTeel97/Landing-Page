@@ -18,7 +18,7 @@ a {
 .header {
   height: auto;
   width: 100%;
-  background-color: rgb(17, 15, 134);
+  background-color: #1f2937;
   color: white;
 }
 
@@ -30,18 +30,112 @@ a {
   margin-right: auto;
   margin-left: 10px;
 }
+.button1 {
+  background-color: #3882f6;
+  color: white;
+  border-radius: 25px;
+  width: 100px;
+}
 
 .header-links {
   display: flex;
   gap: 20px;
-  margin-right: 10px;
+  margin-right: 100px;
   align-items: center;
   text-decoration: none;
   color: white;
 }
 
+.First {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  align-items: center;
+}
+
+h1 {
+  width: min-content;
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.firstpar {
+  width: 450px;
+  font-size: 18px;
+}
+
 .second {
   height: auto;
   width: 100%;
-  background-color: grey;
+  background-color: white;
+}
+
+.secondtop {
+  justify-content: center;
+  padding-top: 80px;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  display: flex;
+}
+
+.picture-list {
+  display: flex;
+  justify-content: center;
+  color: #1f2937;
+}
+
+.quote {
+  display: flex;
+  justify-content: center;
+  background-color: #e5e7eb;
+  color: #1f2937;
+}
+
+.innerquote {
+  font-size: 36px;
+  font-style: italic;
+  width: 400px;
+}
+
+.signature {
+  margin-top: 150px;
+  color: #1f2937;
+}
+.fourthbox {
+  background-color: white;
+  display: flex;
+}
+
+.inner-fourth {
+  background-color: #3882f6;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  padding: 50px;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 1000px;
+}
+h3 {
+  color: black;
+}
+
+.product {
+  color: black;
+}
+
+.sign-up {
+  background-color: #3882f6;
+  border-radius: 10px;
+  width: 100px;
+  height: fit-content;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
 }
